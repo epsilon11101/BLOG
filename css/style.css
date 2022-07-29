@@ -1,0 +1,48 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin{
+margin: 2% 2%;
+}
+
+.grid-container{
+
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-areas: 'tab tab tab tab tab tab'
+                      'mod gui gui gui gui gui';
+
+                    }
+
+.grid-container  div{
+
+ text-align: center;
+ max-height: 650px;
+}
+div:nth-child(1){
+    grid-area: tab;
+}
+div:nth-child(2){
+    grid-area: mod;
+    overflow-y: scroll;
+    min-width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+div:nth-child(3){
+    grid-area: gui;
+    overflow-y: scroll;
+    
+}
+
+
+div:nth-child(2) li ul{
+    /* display: none; */
+    margin-top: 5%;
+    margin-left: 20%;
+    min-width: 140px
+}
