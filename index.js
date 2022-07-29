@@ -28,18 +28,3 @@ let sub_menus = $("div:nth-child(2) .subtitle")
 
     
 });
-
-    // let image_overlay = $("#grid .grid-element");
-    // let title = $("#welcome_text");
-    // let subtitle = $("#welcome_text_sub");
-    
-    // image_overlay.mouseover(function () {
-    //     let figure = $(this).children("figure")
-    //     let image_overlay = figure.children("div.image_overlay");
-    //     let image_title = image_overlay.children("div.image_title").children("p");
-    //     let image_subtitle = image_title.attr("description");
-
-    //     image_overlay.css({ "top": "80%", "height": "20%" });
-    //     title.text(image_title.html())
-    //     subtitle.text(image_subtitle)
-    // })
